@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "JejuStoneWall";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
 * {
   /* padding: 0; */
   margin: 0;
@@ -25,6 +32,7 @@ header {
 #logo {
   font-size: 48px;
   font-weight: bold;
+  font-family: "JejuStoneWall";
 }
 /* 네비게이션 (메뉴) */
 nav {
